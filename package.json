@@ -29,10 +29,19 @@
   },
   "homepage": "https://github.com/MacKentoch/react-native-beacons-manager#readme",
   "main": "index.js",
-  "directories": {
-    "example": "examples",
-    "lib": "lib"
-  },
+  "files": [
+    "./index.js",
+    "./lib/next/**/*",
+    "./android/build.gradle",
+    "./android/gradlew.bat",
+    "./android/gradle/**/*",
+    "./android/src/**/*",
+    "./ios/RNiBeacon/RNiBeacon/**/*",
+    "./ios/RNiBeacon/RNiBeacon.xcodeproj/project.pbxproj",
+    "./ReactNativeBeaconsManager.podspec",
+    "./typings.json",
+    "./typings/react-native-beacons-manager.d.ts"
+  ],
   "engines": {
     "node": ">=8.9.0",
     "npm": ">=5.3.0",
@@ -61,5 +70,6 @@
   "peerDependencies": {
     "react": ">=15.4.2",
     "react-native": ">=0.41.2"
-  }
+  },
+  "packageManager": "yarn@4.16.0"
 }
